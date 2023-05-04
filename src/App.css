@@ -1,0 +1,37 @@
+.container{
+  margin: 0 10%; 
+}
+
+.auth-element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  min-height: 100vh;
+}
+
+.auth-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gold-element{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 1rem
+}
+
+.title{
+  margin: 2rem 0 1rem 0
+}
+
+
+@media only screen and (max-width: 768px) {
+  .gold-element{
+    min-height: fit-content;
+  }
+}
